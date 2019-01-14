@@ -5,7 +5,6 @@ import { OutboundLink } from "gatsby-plugin-google-analytics"
 import MdClose from "react-icons/lib/md/close"
 import { navigate, PageRenderer } from "gatsby"
 import presets, { colors } from "../utils/presets"
-import Banner from "../components/banner"
 import Navigation from "../components/navigation"
 import MobileNavigation from "../components/navigation-mobile"
 import PageWithSidebar from "../components/page-with-sidebar"
@@ -150,16 +149,6 @@ class DefaultLayout extends React.Component {
       <div className={isHomepage ? `is-homepage` : ``}>
         <SiteMetadata pathname={this.props.location.pathname} />
         <SkipNavLink css={styles.skipLink}>Skip to main content</SkipNavLink>
-        <Banner background={isHomepage ? `#402060` : false}>
-          {/* !!! If you change the children of Banner remember to do the same in layout/layout-with-heading.js */}
-          <OutboundLink
-            href="https://www.gatsbyjs.com/behind-the-scenes/"
-            css={{ color: `#fff`, "&:hover": { color: `#fff` } }}
-          >
-            Register now
-          </OutboundLink>
-          {`: “Behind the Scenes: What makes Gatsby Great”.`}
-        </Banner>
         <Navigation pathname={this.props.location.pathname} />
         <div
           className={`main-body`}

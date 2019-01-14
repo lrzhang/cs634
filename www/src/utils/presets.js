@@ -35,7 +35,7 @@ module.exports = {
   },
   logoOffset: 1.8,
   headerHeight: `3.5rem`,
-  bannerHeight: `2.5rem`,
+  bannerHeight: `0.0rem`,
   sidebarUtilityHeight: `2.5rem`,
   pageHeadingDesktopWidth: `3.5rem`,
 }
