@@ -1,6 +1,5 @@
 ---
-title: "The data scientist"
-path: "/lectures/the-data-scientist"
+title: The data scientist
 ---
 
 ## Sample Job description

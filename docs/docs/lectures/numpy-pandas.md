@@ -1,6 +1,5 @@
 ---
-title: "Numerical Python (Numpy & Pandas)"
-path: "/lectures/numerical-python"
+title: Numerical Python (Numpy & Pandas)
 ---
 
 ## Numpy

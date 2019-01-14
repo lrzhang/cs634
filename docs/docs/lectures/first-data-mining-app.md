@@ -1,6 +1,5 @@
 ---
-title: "Your First Data Mining App"
-path: "/lectures/your-first-data-mining-app"
+title: Your First Data Mining App
 ---
 
 ## Data Mining
