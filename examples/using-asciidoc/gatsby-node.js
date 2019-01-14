@@ -10,7 +10,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   // The “graphql” function allows us to run arbitrary
-  // queries against the local Drupal graphql schema. Think of
+  // queries against the local graphql schema. Think of
   // it like the site has a built-in database constructed
   // from the fetched data that you can run queries against.
   return graphql(
