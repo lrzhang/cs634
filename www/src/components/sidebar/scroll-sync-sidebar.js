@@ -78,7 +78,7 @@ const _getItemIds = section => {
 const _getElementTopOffsetsById = ids => {
   const banner = document.getElementsByClassName(`banner`)
   const navigation = document.getElementsByClassName(`navigation`)
-  const bannerHeight = banner[0].offsetHeight || 0
+  const bannerHeight = 0 //banner[0].offsetHeight || 0
   const navigationHeight = navigation[0].offsetHeight || 0
 
   return ids
