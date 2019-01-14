@@ -38,7 +38,7 @@ const handleIntersection = (el, cb) => {
 
 class GatsbyLink extends React.Component {
   constructor(props) {
-    super()
+    super(props)
     // Default to no support for IntersectionObserver
     let IOSupported = false
     if (typeof window !== `undefined` && window.IntersectionObserver) {
@@ -97,13 +97,19 @@ class GatsbyLink extends React.Component {
       /* eslint-disable no-unused-vars */
       activeClassName: $activeClassName,
       activeStyle: $activeStyle,
-      ref: $ref,
       innerRef: $innerRef,
       state,
       replace,
       /* eslint-enable no-unused-vars */
       ...rest
     } = this.props
+
+    const LOCAL_URL = /^\/(?!\/)/
+    if (process.env.NODE_ENV !== `production` && !LOCAL_URL.test(to)) {
+      console.warn(
+        `External link ${to} was detected in a Link component. Use the Link component only for internal links. See: https://gatsby.app/internal-links`
+      )
+    }
 
     const prefixedTo = withPrefix(to)
 
@@ -154,7 +160,9 @@ GatsbyLink.propTypes = {
   replace: PropTypes.bool,
 }
 
-export default GatsbyLink
+export default React.forwardRef((props, ref) => (
+  <GatsbyLink innerRef={ref} {...props} />
+))
 
 export const navigate = (to, options) => {
   window.___navigate(withPrefix(to), options)
