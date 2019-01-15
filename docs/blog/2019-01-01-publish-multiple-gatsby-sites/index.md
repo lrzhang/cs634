@@ -1,7 +1,7 @@
 ---
 title: Publish Multiple Gatsby Sites in a Monorepo, Using Lerna, Travis & Now
 date: 2019-01-01
-author: Andrico Karoulla
+author: Pantelis Monogioudis
 tags:
   [
     "apps",
@@ -13,6 +13,16 @@ tags:
     "continuous integration",
   ]
 excerpt: Learn how to create a balanced lasagna instead of a tangled mess of spaghetti.
+draft: false
+cover: ./images/monorepo-diagram.jpeg
+publishedAt: NYC
+canonicalLink: hhhh
+image: ./images/monorepo-diagram.jpeg
+avatar: avatars/lekoarts.png
+imageAuthor: Kees Torn
+imageAuthorLink: https://flic.kr/p/mozahn
+imageTitle: Container ship loading containers
+showImageInArticle: false
 ---
 
 ## Learn how to create a balanced lasagna instead of a tangled mess of spaghetti.

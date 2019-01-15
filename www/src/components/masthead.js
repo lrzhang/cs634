@@ -91,14 +91,22 @@ const MastheadContent = () => (
               },
             }}
           >
-            Build
+            CS634: Data Mining
           </span>
-          <Slider
-            items={[`blazing fast`, `modern`, `beautiful`, `secure`]}
-            color={colors.lilac}
-          />
         </span>
-        apps and websites with React
+        Learn from
+        <Slider items={[`Structured`, `Unstructured`]} color={colors.lilac} />
+        <span css={{ display: `block` }}>
+          <span
+            css={{
+              [presets.Tablet]: {
+                marginRight: rhythm(1 / 8),
+              },
+            }}
+          >
+            Data
+            </span>
+        </span>
       </h1>
       <Button large to="/docs/" icon={<ArrowForwardIcon />}>
         Get Started

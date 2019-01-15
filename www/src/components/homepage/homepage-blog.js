@@ -12,7 +12,7 @@ const HomepageBlog = ({ posts }) => (
   <HomepageSection
     sectionName="Blog"
     sectionIcon={BlogIcon}
-    title="The Gatsby blog"
+    title="The CS634 blog"
     links={[
       {
         label: `View all posts`,

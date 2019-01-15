@@ -9,7 +9,7 @@ import DocSearchContent from "../components/docsearch-content"
 
 import Container from "../components/container"
 
-import docsHierarchy from "../data/sidebars/doc-links.yaml"
+import docsHierarchy from "../data/sidebars/lecture-links.yaml"
 
 // I’m doing some gymnastics here that I can only hope you’ll forgive me for.
 // Find the guides in the sidebar YAML.

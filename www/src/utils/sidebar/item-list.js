@@ -1,6 +1,6 @@
-import docsSidebar from "../../data/sidebars/doc-links.yaml"
+import docsSidebar from "../../data/sidebars/lecture-links.yaml"
 import featuresSidebar from "../../data/sidebars/features-links.yaml"
-import tutorialSidebar from "../../data/sidebars/tutorial-links.yaml"
+import tutorialSidebar from "../../data/sidebars/project-links.yaml"
 
 const createHash = link => {
   let index = -1

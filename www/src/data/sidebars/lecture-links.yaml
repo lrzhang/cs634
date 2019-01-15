@@ -1,0 +1,72 @@
+- title: Lecture Notes
+  items:
+    - title: Week 1. Introduction
+      ui: steps
+      items:
+        - title: Course Introduction
+          link: /docs/lectures/course-introduction
+        - title: Data mining overview
+          link: /docs/lectures/data-mining-overview/
+        - title: A real job description of a data scientist
+          link: /docs/lectures/data-scientist-job/
+    - title: Week 2. Programming Review
+      ui: steps  
+      items:
+        - title: Your Programming Workflow
+          link: /docs/lectures/programming-workflow/
+        - title: Numerical python 
+          link: /docs/lectures/numpy-pandas
+        - title: Your first data mining app  
+          link: /docs/lectures/first-data-mining-app
+    - title: Week 3. Math Review
+      ui: steps
+      items: 
+        - title: Linear Algebra
+          link: /docs/lectures/linear-algebra
+        - title: Probability and Information Theory Basics
+          link: /docs/lectures/probability
+        - title: Netflix Case Study
+          link: /docs/lectures/netflix
+    - title: Week 4. Linear Regression 
+      ui: steps
+      items: 
+        - title: A linear problem
+          link: /docs/lectures/linear-regression
+        - title: Fitting the data via Gradient Descent
+          link: /docs/lectures/gradient-descent
+        - title: Overfitting 
+          link: /docs/lectures/overfitting 
+        - title: Zillow case study 
+          link: /docs/lectures/zillow-i
+    - title: Week 5. Linear Classification
+      ui: steps
+      items: 
+        - title: The two class problem
+          link: /docs/lectures/linear-classification
+        - title: Logistic Regression
+          link: /docs/lectures/logistic-regression
+        - title: Titanic case study
+          link: /docs/lectures/titanic
+    - title: Week6. Kernel Methods and Gaussian Processes
+      ui: steps
+      items: 
+        - title: Kernel methods
+          link: /docs/lectures/kernels
+        - title: Gaussian Process Regression
+          link: /docs/lectures/gaussian-process-regression
+        - title: Zillow case study (the real thing) 
+          link: /docs/lectures/zillow-ii
+    - title: Week 7. Midterm
+- title: Guides
+  items:
+      - title: Preparing your programming environment
+        link: /docs/environment/setup
+        items:
+          - title: Docker
+            link: /docs/environment/docker
+          - title: Jupyter Notebooks
+            link: /docs/environment/jupyter
+
+          
+        
+      
