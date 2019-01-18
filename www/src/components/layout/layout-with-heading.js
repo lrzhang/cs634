@@ -69,11 +69,11 @@ const LayoutWithHeading = props => {
   return (
     <div className={` ${isHomepage ? `isHomepage` : ``}`}>
       <Helmet>
-        <title>{pageTitle ? `${pageTitle} | GatsbyJS` : `GatsbyJS`}</title>
-        <meta name="twitter:site" content="@gatsbyjs" />
+        <title>{pageTitle ? `${pageTitle} | CS634` : `CS634`}</title>
+        <meta name="twitter:site" content="@monogioudis" />
         <meta name="og:type" content="website" />
-        <meta name="og:site_name" content="GatsbyJS" />
-        <link rel="canonical" href={`https://gatsbyjs.org${pathname}`} />
+        <meta name="og:site_name" content="CS634" />
+        <link rel="canonical" href={`https://cs634.netlify.com${pathname}`} />
         <html lang="en" />
       </Helmet>
 

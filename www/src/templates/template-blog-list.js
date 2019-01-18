@@ -99,7 +99,7 @@ class BlogPostsIndex extends React.Component {
               />
             ))}
             <Pagination context={this.props.pageContext} />
-            <EmailCaptureForm signupMessage="Enjoying our blog? Receive the next post in your inbox!" />
+            {/* <EmailCaptureForm signupMessage="Enjoying our blog? Receive the next post in your inbox!" /> */}
           </Container>
         </main>
       </Layout>

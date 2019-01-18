@@ -107,7 +107,7 @@ class IndexRoute extends React.Component {
             }}
           >
             <MastheadContent />
-            <UsedBy />
+            {/* <UsedBy /> */}
             <div
               css={{
                 padding: rhythm(presets.gutters.default / 2),
@@ -129,78 +129,47 @@ class IndexRoute extends React.Component {
                 <Cards>
                   <Card>
                     <CardHeadline>
-                      Modern web tech without the headache
+                      Instructors
                     </CardHeadline>
                     <FuturaParagraph>
-                      Enjoy the power of the latest web technologies –{` `}
-                      <TechWithIcon icon={ReactJSIcon}>React.js</TechWithIcon>,
-                      {` `}
-                      <TechWithIcon icon={WebpackIcon}>Webpack</TechWithIcon>,
-                      {` `}
-                      modern JavaScript and CSS and more — all set up and
-                      waiting for you to start building.
+                      Pantelis Monogioudis, Ph.D, Bell Labs.
+                    </FuturaParagraph>
+                    <FuturaParagraph>
+                      [Contact info will be given in class.]
                     </FuturaParagraph>
                   </Card>
                   <Card>
-                    <CardHeadline>Bring your own data</CardHeadline>
+                  <CardHeadline>Grading Policy</CardHeadline>
                     <FuturaParagraph>
-                      Gatsby’s rich data plugin ecosystem lets you build sites
-                      with the data you want — from one or many sources: Pull
-                      data from headless CMSs, SaaS services, APIs, databases,
-                      your file system, and more directly into your pages using
-                      {` `}
-                      <TechWithIcon icon={GraphQLIcon}>GraphQL</TechWithIcon>.
+                      <li>Weights</li>
+                      <ul>
+                        Midterm Project: 25%, Final Project: 30%, Term Paper:
+                        10%, Exam: 35%
+                      </ul>
+                      <li>Scale</li>
+                      <ul>
+                        A: 93% and above, B+: 86%-92.9%, B: 78%-85.9%, C+:
+                        70%-77.9%, C: 60%-69.9%, F: Below 60%
+                      </ul>
                     </FuturaParagraph>
                   </Card>
                   <Card>
-                    <CardHeadline>Scale to the entire internet</CardHeadline>
+                  <CardHeadline>Course Highlights</CardHeadline>
                     <FuturaParagraph>
-                      Gatsby.js is Internet Scale. Forget complicated deploys
-                      with databases and servers and their expensive,
-                      time-consuming setup costs, maintenance, and scaling
-                      fears. Gatsby.js builds your site as “static” files which
-                      can be deployed easily on dozens of services.
+                      All course discussions will take place in Moodle.
+                    </FuturaParagraph>
+                    <FuturaParagraph>
+                      Stay tuned for updates in the Projects link at the top of
+                      this page.
+                    </FuturaParagraph>
+                    <FuturaParagraph>
+                    Some proficiency in programming, linear algebra, basic
+                      probability and statistics is expected. We will go through
+                      the basics in the first weeks of the course.
                     </FuturaParagraph>
                   </Card>
-                  <Card>
-                    <CardHeadline>Future-proof your website</CardHeadline>
-                    <FuturaParagraph>
-                      Do not build a website with last decade’s tech. The future
-                      of the web is mobile, JavaScript and APIs—the {` `}
-                      <a href="https://jamstack.org/">JAMstack</a>. Every
-                      website is a web app and every web app is a website.
-                      Gatsby.js is the universal JavaScript framework you’ve
-                      been waiting for.
-                    </FuturaParagraph>
-                  </Card>
-                  <Card>
-                    <CardHeadline>
-                      <em css={{ color: colors.gatsby, fontStyle: `normal` }}>
-                        Static
-                      </em>
-                      {` `}
-                      Progressive Web Apps
-                    </CardHeadline>
-                    <FuturaParagraph>
-                      Gatsby.js is a static PWA (Progressive Web App) generator.
-                      You get code and data splitting out-of-the-box. Gatsby
-                      loads only the critical HTML, CSS, data, and JavaScript so
-                      your site loads as fast as possible. Once loaded, Gatsby
-                      prefetches resources for other pages so clicking around
-                      the site feels incredibly fast.
-                    </FuturaParagraph>
-                  </Card>
-                  <Card>
-                    <CardHeadline>Speed past the competition</CardHeadline>
-                    <FuturaParagraph>
-                      Gatsby.js builds the fastest possible website. Instead of
-                      waiting to generate pages when requested, pre-build pages
-                      and lift them into a global cloud of servers — ready to be
-                      delivered instantly to your users wherever they are.
-                    </FuturaParagraph>
-                  </Card>
-                  <Diagram />
-                  <div css={{ flex: `1 1 100%` }}>
+                  {/* <Diagram /> */}
+                  {/* <div css={{ flex: `1 1 100%` }}>
                     <Container hasSideBar={false}>
                       <div
                         css={{
@@ -221,14 +190,14 @@ class IndexRoute extends React.Component {
                         </Button>
                       </div>
                     </Container>
-                  </div>
+                  </div> */}
                 </Cards>
 
-                <HomepageEcosystem featuredItems={ecosystemFeaturedItems} />
+                {/* <HomepageEcosystem featuredItems={ecosystemFeaturedItems} /> */}
 
-                <HomepageBlog posts={posts} />
+                {/* <HomepageBlog posts={posts} /> */}
 
-                <HomepageNewsletter />
+                {/* <HomepageNewsletter /> */}
               </main>
             </div>
           </div>

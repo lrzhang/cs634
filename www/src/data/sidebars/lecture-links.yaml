@@ -32,10 +32,10 @@
       items: 
         - title: A linear problem
           link: /docs/lectures/linear-regression
-        - title: Fitting the data via Gradient Descent
-          link: /docs/lectures/gradient-descent
         - title: Overfitting 
           link: /docs/lectures/overfitting 
+        - title: Fitting the data via Gradient Descent
+          link: /docs/lectures/gradient-descent
         - title: Zillow case study 
           link: /docs/lectures/zillow-i
     - title: Week 5. Linear Classification
@@ -43,19 +43,21 @@
       items: 
         - title: The two class problem
           link: /docs/lectures/linear-classification
+        - title: The Perceptron
+          link: /docs/lectures/perceptron 
         - title: Logistic Regression
           link: /docs/lectures/logistic-regression
         - title: Titanic case study
           link: /docs/lectures/titanic
-    - title: Week6. Kernel Methods and Gaussian Processes
+    - title: Week6. Kernel Methods and SVM
       ui: steps
       items: 
-        - title: Kernel methods
+        - title: Kernel Methods
           link: /docs/lectures/kernels
-        - title: Gaussian Process Regression
-          link: /docs/lectures/gaussian-process-regression
-        - title: Zillow case study (the real thing) 
-          link: /docs/lectures/zillow-ii
+        - title: Support Vector Machines
+          link: /docs/lectures/svm
+        - title: SVM case study
+          link: /docs/lectures/svm-case-study
     - title: Week 7. Midterm
 - title: Guides
   items:
@@ -66,6 +68,9 @@
             link: /docs/environment/docker
           - title: Jupyter Notebooks
             link: /docs/environment/jupyter
+          - title: Kaggle and Competitions
+          - link: /docs/environment/kaggle
+
 
           
         

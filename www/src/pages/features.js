@@ -73,7 +73,7 @@ const LegendTable = () => {
   return (
     <div>
       <Helmet>
-        <title>Features</title>
+        <title>Projects</title>
       </Helmet>
       <div
         css={{
@@ -114,13 +114,13 @@ const LegendTable = () => {
 const FeaturesHeader = () => (
   <section>
     <h1 id="introduction" style={{ marginTop: 0 }}>
-      Features
+      Projects
     </h1>
     <FuturaParagraph>
-      There are many ways to build a website. If you’re considering Gatsby, you
-      may also be looking at some alternatives:
+      This is the list of projects that you can choose from. To be successful in each project 
+      you need to stick to the Milestones. 
     </FuturaParagraph>
-    <ul css={{ fontFamily: options.headerFontFamily.join(`,`) }}>
+    {/* <ul css={{ fontFamily: options.headerFontFamily.join(`,`) }}>
       <li>
         <b>Traditional static site generators</b> such as
         {` `}
@@ -157,7 +157,7 @@ const FeaturesHeader = () => (
     <h6 id="legend" css={{ textTransform: `uppercase` }}>
       Legend
     </h6>
-    <LegendTable />
+    <LegendTable /> */}
   </section>
 )
 
@@ -214,11 +214,11 @@ class FeaturesPage extends Component {
         <Container>
           <main id={`reach-skip-nav`}>
             <FeaturesHeader />
-            <EvaluationTable
+            {/* <EvaluationTable
               sections={sections}
               sectionHeaders={sectionHeaders}
             />
-            <FeaturesFooter />
+            <FeaturesFooter /> */}
           </main>
         </Container>
       </Layout>

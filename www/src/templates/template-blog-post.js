@@ -257,7 +257,7 @@ class BlogPostTemplate extends React.Component {
             <TagsSection
               tags={this.props.data.markdownRemark.frontmatter.tags}
             />
-            <EmailCaptureForm />
+            {/* <EmailCaptureForm /> */}
           </main>
         </Container>
         <div

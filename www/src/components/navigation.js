@@ -4,7 +4,7 @@ import GithubIcon from "react-icons/lib/go/mark-github"
 import TwitterIcon from "react-icons/lib/fa/twitter"
 import SearchForm from "../components/search-form"
 import DiscordIcon from "../components/discord"
-import logo from "../logo.svg"
+import logo from "../NJIT_logo.svg"
 import typography, { rhythm, scale, options } from "../utils/typography"
 import presets, { colors } from "../utils/presets"
 import { vP, vPHd, vPVHd, vPVVHd } from "./gutters"
@@ -144,9 +144,9 @@ const Navigation = ({ pathname }) => {
         >
           <ul css={styles.ulContainer}>
             <NavItem linkTo="/docs/">Docs</NavItem>
-            <NavItem linkTo="/tutorial/">Tutorial</NavItem>
+            <NavItem linkTo="/tutorial/"> Resources</NavItem>
             {/* <NavItem linkTo="/plugins/">Plugins</NavItem> */}
-            <NavItem linkTo="/features/">Features</NavItem>
+            <NavItem linkTo="/features/">Projects</NavItem>
             <NavItem linkTo="/blog/">Blog</NavItem>
             {/* <NavItem linkTo="/showcase/">Showcase</NavItem> */}
             {/* <li css={styles.li}>
@@ -168,7 +168,7 @@ const Navigation = ({ pathname }) => {
             offsetVertical="-0.2175rem"
           />
           <SocialNavItem
-            href="https://github.com/gatsbyjs/gatsby"
+            href="https://github.com/pantelis/cs634"
             title="GitHub"
           >
             <GithubIcon style={{ verticalAlign: `text-top` }} />
@@ -180,25 +180,25 @@ const Navigation = ({ pathname }) => {
               [presets.Hd]: { display: `flex` },
             }}
           >
-            <SocialNavItem
+            {/* <SocialNavItem
               href="https://discord.gg/0ZcbPKXt5bVoxkfV"
               title="Discord"
             >
               <DiscordIcon overrideCSS={{ verticalAlign: `text-top` }} />
-            </SocialNavItem>
+            </SocialNavItem> */}
             <SocialNavItem
-              href="https://twitter.com/gatsbyjs"
-              title="@gatsbyjs"
+              href="https://twitter.com/monogioudis"
+              title="@monogioudis"
             >
               <TwitterIcon style={{ verticalAlign: `text-top` }} />
             </SocialNavItem>
           </div>
           <SocialNavItem
-            href="https://www.gatsbyjs.com"
-            title="gatsbyjs.com"
+            href="https://njit2.mrooms.net/"
+            title="MOODLE"
             overrideCSS={{ paddingRight: 0 }}
           >
-            .com
+            MOODLE
           </SocialNavItem>
         </div>
       </div>
