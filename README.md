@@ -4,8 +4,7 @@
 
 
 ## 🚀 Get Up and Running in 5 Minutes
-
-After you clone this site 
+This site is based on Gatsbyjs.org. After you clone this repository, 
 
     ```sh
     cd www/
@@ -14,4 +13,4 @@ After you clone this site
 
 Your site is now running at `http://localhost:8000`. You can now edit any markdown file under docs/. Save your changes, and the browser will update in real time. 
 
-At this point, you’ve got a fully functional Gatsby website. For additional information on how you can customize your site, see our [plugins](https://gatsbyjs.org/plugins/) and [the official tutorial](https://gatsbyjs.org/tutorial/).
+At this point, you’ve got a fully functional course website. For additional information on how you can customize your site, see our [plugins](https://gatsbyjs.org/plugins/) and [the official tutorial](https://gatsbyjs.org/tutorial/).
