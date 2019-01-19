@@ -32,12 +32,12 @@
       items: 
         - title: A linear problem
           link: /docs/lectures/linear-regression
-        - title: Overfitting 
-          link: /docs/lectures/overfitting 
         - title: Fitting the data via Gradient Descent
           link: /docs/lectures/gradient-descent
+        - title: Overfitting 
+          link: /docs/lectures/overfitting 
         - title: Zillow case study 
-          link: /docs/lectures/zillow-i
+          link: /docs/lectures/zillow
     - title: Week 5. Linear Classification
       ui: steps
       items: 
@@ -49,7 +49,7 @@
           link: /docs/lectures/logistic-regression
         - title: Titanic case study
           link: /docs/lectures/titanic
-    - title: Week6. Kernel Methods and SVM
+    - title: Week 6. Kernel Methods and SVM
       ui: steps
       items: 
         - title: Kernel Methods
@@ -58,7 +58,75 @@
           link: /docs/lectures/svm
         - title: SVM case study
           link: /docs/lectures/svm-case-study
-    - title: Week 7. Midterm
+    - title: Week 7. Clustering
+      ui: steps
+      items: 
+        - title: K-means
+          link: /docs/lectures/k-means
+        - title: KNN
+          link: /docs/lectures/knn
+        - title: Clustering case study
+          link: /docs/lectures/clustering-case-study
+    - title: Week 8. Midterm Projects Review 
+      link: /features
+    - title: Week 9. Spring Recess
+    - title: Week 10. Decision Trees 
+      ui: steps
+      items: 
+        - title: Decision Tree Principle
+          link: /docs/lectures/decision-tree-principle
+        - title: The CART Algorithm
+          link: /docs/lectures/cart-algorithm
+        - title: Decision Trees in Regression 
+          link: /docs/lectures/decision-tree-regression
+        - title: Decision Trees Case Study 
+          link: /docs/lectures/decision-tree-case-study
+    - title: Week 11. Probabilistic Modeling 
+      ui: steps
+      items: 
+        - title: Bayes Rule and Naive Bayes
+          link: /docs/lectures/belief
+        - title: Markov Random Fields
+          link: /docs/lectures/mrf
+        - title: Conditional Random Fields 
+          link: /docs/lectures/crf
+    - title: Week 12. Multi-Layer Perceptrons
+      ui: steps
+      items: 
+        - title: Architecture
+          link: /docs/lectures/architecture
+        - title: Backpropagation-I
+          link: /docs/lectures/backpropagation
+        - title: MPL Case Study  
+          link: /docs/lectures/mlp-case-study
+    - title: Week 13. Training Deep Networks
+      ui: steps
+      items: 
+        - title: Optimization Algorithms
+          link: /docs/lectures/architecture
+        - title: Backpropagation-II
+          link: /docs/lectures/backpropagation
+        - title: Deep Neural Network Case Study  
+          link: /docs/lectures/dnn-case-study
+    - title: Week 14. Convolutional Neural Networks
+      ui: steps
+      items: 
+        - title: Convolution & Pooling
+          link: /docs/lectures/convolution
+        - title: Simple CNN Example
+          link: /docs/lectures/simple-cnn
+        - title: Object Derection Case Study
+          link: /docs/lectures/object-detection
+    - title: Week 15. Final Projects Review
+      link: /features
+    - title: Week 16. Training Methodology
+      ui: steps
+      items: 
+        - title: Hyperparameter Optimization
+          link: /docs/lectures/hyperparameter-optimization
+        - title: Tensorflow Pipeline Methodology Case Study 
+          link: /docs/lectures/tensorflow-e2e
+    - title: Week 17. Lessons Learned 
 - title: Guides
   items:
       - title: Preparing your programming environment
@@ -68,8 +136,78 @@
             link: /docs/environment/docker
           - title: Jupyter Notebooks
             link: /docs/environment/jupyter
-          - title: Kaggle and Competitions
-          - link: /docs/environment/kaggle
+# - title: Lecture Notes
+#   items:
+#     - title: Week 1. Introduction
+#       ui: steps
+#       items:
+#         - title: Course Introduction
+#           link: /docs/lectures/course-introduction
+#         - title: Data mining overview
+#           link: /docs/lectures/data-mining-overview/
+#         - title: A real job description of a data scientist
+#           link: /docs/lectures/data-scientist-job/
+#     - title: Week 2. Programming Review
+#       ui: steps  
+#       items:
+#         - title: Your Programming Workflow
+#           link: /docs/lectures/programming-workflow/
+#         - title: Numerical python 
+#           link: /docs/lectures/numpy-pandas
+#         - title: Your first data mining app  
+#           link: /docs/lectures/first-data-mining-app
+#     - title: Week 3. Math Review
+#       ui: steps
+#       items: 
+#         - title: Linear Algebra
+#           link: /docs/lectures/linear-algebra
+#         - title: Probability and Information Theory Basics
+#           link: /docs/lectures/probability
+#         - title: Netflix Case Study
+#           link: /docs/lectures/netflix
+#     - title: Week 4. Linear Regression 
+#       ui: steps
+#       items: 
+#         - title: A linear problem
+#           link: /docs/lectures/linear-regression
+#         - title: Overfitting 
+#           link: /docs/lectures/overfitting 
+#         - title: Fitting the data via Gradient Descent
+#           link: /docs/lectures/gradient-descent
+#         - title: Zillow case study 
+#           link: /docs/lectures/zillow-i
+#     - title: Week 5. Linear Classification
+#       ui: steps
+#       items: 
+#         - title: The two class problem
+#           link: /docs/lectures/linear-classification
+#         - title: The Perceptron
+#           link: /docs/lectures/perceptron 
+#         - title: Logistic Regression
+#           link: /docs/lectures/logistic-regression
+#         - title: Titanic case study
+#           link: /docs/lectures/titanic
+#     - title: Week6. Kernel Methods and SVM
+#       ui: steps
+#       items: 
+#         - title: Kernel Methods
+#           link: /docs/lectures/kernels
+#         - title: Support Vector Machines
+#           link: /docs/lectures/svm
+#         - title: SVM case study
+#           link: /docs/lectures/svm-case-study
+#     - title: Week 7. Midterm
+# - title: Guides
+#   items:
+#       - title: Preparing your programming environment
+#         link: /docs/environment/setup
+#         items:
+#           - title: Docker
+#             link: /docs/environment/docker
+#           - title: Jupyter Notebooks
+#             link: /docs/environment/jupyter
+#           - title: Kaggle and Competitions
+#           - link: /docs/environment/kaggle
 
 
           
