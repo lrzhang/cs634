@@ -8,6 +8,7 @@ This site is based on Gatsbyjs.org. After you clone this repository,
 
     ```sh
     cd www/
+    npm install
     gatsby develop
     ```
 
