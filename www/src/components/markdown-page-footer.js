@@ -38,7 +38,7 @@ export default class MarkdownPageFooter extends React.Component {
         }}
         key="div"
       >
-        {this.state.feedbackSubmitted ? (
+        {/* {this.state.feedbackSubmitted ? (
           <span css={{ lineHeight: rhythm(2) }}>Thank you!</span>
         ) : (
           <span css={{ lineHeight: rhythm(2) }}>
@@ -73,7 +73,7 @@ export default class MarkdownPageFooter extends React.Component {
               }}
             />
           </span>
-        )}
+        )} */}
         <a
           css={{
             "&&": {

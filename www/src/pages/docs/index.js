@@ -53,34 +53,28 @@ class IndexRoute extends React.Component {
               <strong>Week 7: (3/7/2019) </strong>  The setting this week changes to that of unsupervised learning. We review workhorses of ML such as K-means, KNN and Decision Trees. 
               </li>
               <li>
-              <strong>Week 8: (3/14/2019) </strong>  In this week we go over problem statements and the way to go about providing solutions to the midterm projects. Mid-term projects are application / competition oriented and require programming. 
+              <strong>Week 8: (3/14/2019) </strong>  We hold our midterm exam (30 mins) and dedicate the rest of the time to going over Random Forests. Random Forests have been used successfully in many ML use cases. In this lecture we conclude our journey into classical ML algorithms. 
               </li>
               <li>
               <strong>Week 9: (3/21/2019) </strong>  Enjoy your Spring Break!
               </li>
               <li>
-              <strong>Week 10: (3/28/2019) </strong>  We start the 2nd half by examining Decision Trees - another ML workhorse with wide applicability in a diverse set of problems (classification and regression). 
+              <strong>Week 10: (3/28/2019) </strong>  This week we have a Guest Lecturer - he will go over some key Data Mining applications. 
               </li>
               <li>
-              <strong>Week 11: (4/4/2019</strong>  We conclude the classical machine learning part of the course by looking at probabilistic reasoning. Starting from the Bayesian setting, we introduce Markov Random Fields and Conditional Random Fields. 
+              <strong>Week 11: (4/4/2019) </strong>  We connect back to the perceptron algorithm and we start the exploration into the deep learning space by connecting multiple perceptrons together in layers. We explain how MLPs learn via SGD and how backpropagation in MLPs dramatically improves the estimation of the required gradients. 
               </li>
               <li>
-              <strong>Week 12: (4/11/2019) </strong>  We connect back to the perceptron algorithm and we start the exploration into the deep learning space by connecitng multiple perceptrons together in layers. We explain how MLPs learn via SGD and how backpropagation in MLPs dramatically improves the estimation of the required gradients. 
+              <strong>Week 12: (4/11/2019) </strong>  We continue on backpropation by highlighting how we need to control  gradient flow to avoid vanishing gradients or gradient explosion in Deep Neural Networks. We go over a DNN example highlighting the training difficulties / issues. 
               </li>
               <li>
-              <strong>Week 13: (4/18/2019) </strong>  We continue on backpropation by highlighting how we need to control  gradient flow to avoid vanishing gradients or gradient explosion in Deep Neural Networks. We go over a DNN example highlighting the training difficulties / issues. 
+              <strong>Week 13: (4/18/2019) </strong>  CNNs are almost synonymous with deep learning. This architecture although known for some time, it is finding application in a diverse set of use cases involving unstructured data such as computer vision. We review the principles of convolution and pooling and understand what they offer relative to fully connected layers. At the end we go over a classic object detection example.  
               </li>
               <li>
-              <strong>Week 14: (4/25/2019) </strong>  CNNs are almost synonymous with deep learning. This architecture although known for some time, it is still finding application in a diverse set of use cases involving unstructured data such as computer vision. We review the principles of convolution and pooling and understand what they offer relative to fully connected layers. At the end we go over a classic object detection example.  
+              <strong>Week 14: (4/25/2019) </strong>  We conclude the course with going over a complete end to end tensorflow pipeline use case, spending some time on hyperparameter optimization. 
               </li>
               <li>
-              <strong>Week 15: (5/2/2019) </strong>  In this week we go over the problem statements of the final projects and the tools that are required for their solution. Final projects are application / competition oriented and require programming. 
-              </li>
-              <li>
-              <strong>Week 16: (5/9/2019) </strong>  We conclude the course with going over a complete end to end tensorflow pipeline use case, spending some time on hyperparameter optimization. 
-              </li>
-              <li>
-              <strong>Week 13: (5/16/2019) </strong>  In this last lecture, we review what we learned and we recognize students to excelled in their final projects by giving them the opportunity to present them.  
+              <strong>Week 15: (5/2/2019) </strong>  In this last lecture, we review what we learned and we recognize students to excelled in their final projects by giving them the opportunity to present them.  
               </li>
             </ol>
             {/* <EmailCaptureForm signupMessage="Want to keep up with the latest tips &amp; tricks? Subscribe to our newsletter!" /> */}
