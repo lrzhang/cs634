@@ -84,6 +84,6 @@ To all recruitment agencies Google does not accept agency resumes. Please do not
 
 Contrast this to an organizational structure that isolates researchers from product development.  What about Alphabet's X https://x.company/ ?
 
-## Interactions between data scientists and other disciplines
+## Interactions between data scientists and other engineers
 
 ![Data scientists and other actors](images/acumos-actors.svg)
