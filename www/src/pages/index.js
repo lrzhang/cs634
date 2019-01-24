@@ -143,8 +143,7 @@ class IndexRoute extends React.Component {
                     <FuturaParagraph>
                       <li>Weights</li>
                       <ul>
-                        Midterm Project: 25%, Final Project: 30%, Term Paper:
-                        10%, Exam: 35%
+                        Midterm Project: 25%, Final Project: 30%, Mid term Exam: 10 %, Final Exam: 35%
                       </ul>
                       <li>Scale</li>
                       <ul>
@@ -156,7 +155,7 @@ class IndexRoute extends React.Component {
                   <Card>
                   <CardHeadline>Course Highlights</CardHeadline>
                     <FuturaParagraph>
-                      All course discussions will take place in Moodle.
+                      All course discussions will take place in Moodle. 
                     </FuturaParagraph>
                     <FuturaParagraph>
                       Stay tuned for updates in the Projects link at the top of
@@ -165,7 +164,7 @@ class IndexRoute extends React.Component {
                     <FuturaParagraph>
                     Some proficiency in programming, linear algebra, basic
                       probability and statistics is expected. We will go through
-                      the basics in the first weeks of the course.
+                      the basics in the first 3 weeks of the course.
                     </FuturaParagraph>
                   </Card>
                   {/* <Diagram /> */}

@@ -2,22 +2,16 @@
 title: Course Introduction
 ---
 
-## Summary
-Why we are all here?
-
-* AI is still in its infancy especially when:
-  * the system learns in one domain and is able to generalize in others.
-  * control loops and long term uncertainty are involved.
-* Efforts concentrate currently in bringing simulation and deep generative network approaches together.
+## The state of AI today and positioning of this course
 
 <section class="bg-apple aligncenter">
           <!--.wrap = container (width: 90%) -->
           <div class="wrap">
-            <h2>A nautical analogy</h2>
             <figure><img class="aligncenter" src="images/nautical-analogy.png" alt="Cumberland Basin, April 1844"></figure>
           </div>
 </section>
-This is a  nautical analogy on where we are today on AI for mission critical systems. Can you notice anything strange with this ship (Cumberland Basin, photo taken April 1844)?
+
+*A nautical analogy on where we are today on AI for mission critical systems. Can you notice anything strange with this ship (Cumberland Basin, photo taken April 1844)?*
 
 <section class="bg-apple" >
   <div class="wrap">

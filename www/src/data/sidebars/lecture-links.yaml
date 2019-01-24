@@ -65,32 +65,20 @@
           link: /docs/lectures/k-means
         - title: KNN
           link: /docs/lectures/knn
-        - title: Clustering case study
+        - title: Decision Trees 
+          link: /docs/lectures/decision-trees
+        - title: Clustering / Decision Tree case study
           link: /docs/lectures/clustering-case-study
-    - title: Week 8. Midterm Projects Review 
-      link: /features
-    - title: Week 9. Spring Recess
-    - title: Week 10. Decision Trees 
+    - title: Week 8. Midterm Exam / Random Forests 
       ui: steps
       items: 
-        - title: Decision Tree Principle
-          link: /docs/lectures/decision-tree-principle
-        - title: The CART Algorithm
-          link: /docs/lectures/cart-algorithm
-        - title: Decision Trees in Regression 
-          link: /docs/lectures/decision-tree-regression
-        - title: Decision Trees Case Study 
-          link: /docs/lectures/decision-tree-case-study
-    - title: Week 11. Probabilistic Modeling 
-      ui: steps
-      items: 
-        - title: Bayes Rule and Naive Bayes
-          link: /docs/lectures/belief
-        - title: Markov Random Fields
-          link: /docs/lectures/mrf
-        - title: Conditional Random Fields 
-          link: /docs/lectures/crf
-    - title: Week 12. Multi-Layer Perceptrons
+        - title: Random Forests
+          link: /docs/lectures/random-forests
+        - title: Random Forests Case Study
+          link: /docs/lectures/random-forest-case-study
+    - title: Week 9. Spring Recess 
+    - title: Week 10. Guest Lecture (Prof. Jason Wang)
+    - title: Week 11. Multi-Layer Perceptrons
       ui: steps
       items: 
         - title: Architecture
@@ -99,7 +87,7 @@
           link: /docs/lectures/backpropagation
         - title: MPL Case Study  
           link: /docs/lectures/mlp-case-study
-    - title: Week 13. Training Deep Networks
+    - title: Week 12. Training Deep Networks
       ui: steps
       items: 
         - title: Optimization Algorithms
@@ -108,7 +96,7 @@
           link: /docs/lectures/backpropagation
         - title: Deep Neural Network Case Study  
           link: /docs/lectures/dnn-case-study
-    - title: Week 14. Convolutional Neural Networks
+    - title: Week 13. Convolutional Neural Networks
       ui: steps
       items: 
         - title: Convolution & Pooling
@@ -117,16 +105,14 @@
           link: /docs/lectures/simple-cnn
         - title: Object Derection Case Study
           link: /docs/lectures/object-detection
-    - title: Week 15. Final Projects Review
-      link: /features
-    - title: Week 16. Training Methodology
+    - title: Week 14. E2E Case Study
       ui: steps
       items: 
         - title: Hyperparameter Optimization
           link: /docs/lectures/hyperparameter-optimization
-        - title: Tensorflow Pipeline Methodology Case Study 
+        - title: Tensorflow Case Study 
           link: /docs/lectures/tensorflow-e2e
-    - title: Week 17. Lessons Learned 
+    - title: Week 15. Lessons Learned 
 - title: Guides
   items:
       - title: Preparing your programming environment

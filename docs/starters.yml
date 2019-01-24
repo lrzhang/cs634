@@ -13,21 +13,21 @@
     - Portfolio
     - Resume
     - Redux for managing statement (with redux-saga / reselect)
-# - url: https://vagr9k.github.io/gatsby-advanced-starter/
-#   repo: https://github.com/Vagr9K/gatsby-advanced-starter
-#   description: Great for learning about advanced features and their implementations
-#   tags:
-#     - Styling:None
-#   features:
-#     - Does not contain any UI frameworks
-#     - Provides only a skeleton
-#     - Tags
-#     - Categories
-#     - Google Analytics
-#     - Disqus
-#     - Offline support
-#     - Web App Manifest
-#     - SEO
+- url: https://vagr9k.github.io/gatsby-advanced-starter/
+  repo: https://github.com/Vagr9K/gatsby-advanced-starter
+  description: Great for learning about advanced features and their implementations
+  tags:
+    - Styling:None
+  features:
+    - Does not contain any UI frameworks
+    - Provides only a skeleton
+    - Tags
+    - Categories
+    - Google Analytics
+    - Disqus
+    - Offline support
+    - Web App Manifest
+    - SEO
 # - url: https://gatsby-tailwind-emotion-starter.netlify.com/
 #   repo: https://github.com/muhajirframe/gatsby-tailwind-emotion-starter
 #   description: A Gatsby Starter with Tailwind CSS + Emotion JS
