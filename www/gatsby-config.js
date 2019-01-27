@@ -58,13 +58,20 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          `gatsby-remark-graphviz`,
+          {
+            resolve: `gatsby-remark-katex`,
+            options: {
+              macros: '\def\rvepsilon{{\mathbf{\epsilon}}}'
+            },
+          },
+          `gatsby-remark-draw`,
           `gatsby-remark-code-titles`,
           {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 786,
               backgroundColor: `#ffffff`,
+              showCaptions: true,
             },
           },
           {
@@ -181,12 +188,12 @@ module.exports = {
     },
     `gatsby-plugin-netlify`,
     `gatsby-plugin-netlify-cache`,
-    {
-      resolve: `gatsby-plugin-mailchimp`,
-      options: {
-        endpoint: `https://gatsbyjs.us17.list-manage.com/subscribe/post?u=1dc33f19eb115f7ebe4afe5ee&amp;id=f366064ba7`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-mailchimp`,
+    //   options: {
+    //     endpoint: `https://gatsbyjs.us17.list-manage.com/subscribe/post?u=1dc33f19eb115f7ebe4afe5ee&amp;id=f366064ba7`,
+    //   },
+    // },
     {
       resolve: `gatsby-transformer-screenshot`,
       options: {
