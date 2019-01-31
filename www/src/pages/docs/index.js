@@ -29,7 +29,7 @@ class IndexRoute extends React.Component {
             <li><a href="https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291/ref=sr_1_3?ie=UTF8&qid=1547836944&sr=8-3&keywords=hands+on+machine+learning+with+scikit-learn+and+tensorflow">Hands-On Machine Learning with Scikit-Learn and TensorFlow, by Aurélien Géron, 2017</a></li>
   
             <h2>Class Schedule</h2>
-            <p>The schedule is based on <a> https://www.njit.edu/registrar/spring-2019-academic-calendar/ </a> :</p>
+            <p>The schedule is based on <a href="https://www.njit.edu/registrar/spring-2019-academic-calendar">Academic Calendar Spring 2019</a> :</p>
             <ol>
               <li>
               <strong>Week 1 (1/24/2019) : </strong> We start with an introduction to data mining, what what are the stages of machine learning pipelines and how data scientists support them. We use industrial examples to highlight how companies (Uber, etc.) mechanize and embed machine learning into products and services.  

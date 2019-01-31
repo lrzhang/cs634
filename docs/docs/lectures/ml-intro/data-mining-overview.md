@@ -15,7 +15,7 @@ According to wikipedia, data mining is the process of discovering patterns in la
 ![Data Mining Positioning](images/ml-ai-categorization.png)
 *Data Mining Positioning*
 
-## ML Terms
+## ML Key Terms
  The performance of simpler machine learning algorithms depends heavily on the **representation** of the data they are given.  Each piece of, relevant to the problem, information that is included in the representation is known as a **feature**.
 
 Modern ML systems **learn** the most suitable representations (still with a some help from data scientists) - an example is shown in the picture below. 

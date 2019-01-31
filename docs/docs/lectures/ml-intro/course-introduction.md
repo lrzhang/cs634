@@ -57,8 +57,6 @@ Wave III is at present an active research area driven primarily from our inabili
 Further, we will see a fusion of disciplines such as real world modeling and simulation with representation learning to help deep neural structures learn without having as requirement difficult and expensive to acquire training datasets.
 
 ![heartflow.com](images/heartflow.png)
-
-
 *Reveal the stenosis: generative augmented physical (CFD) modeling from CT Scans*
 
 For example in the picture above a CFD simulation is used to augment ML algorithms that predict **and explain** those predictions.  I mission critical systems (such as medical diagnostic systems) everything must be  **explainable**.

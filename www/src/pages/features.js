@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
@@ -117,8 +117,24 @@ const FeaturesHeader = () => (
       Projects
     </h1>
     <FuturaParagraph>
-      This is the list of projects that you can choose from. To be successful in each project 
-      you need to stick to the Milestones. 
+      This is the list of projects that you can choose from. All projects are competitions in <a href="https://www.kaggle.com">Kaggle.</a> 
+      
+       <ul>
+       <li> Formation of teams (up to 3 students) to complete the assigned projects is allowed but the submissions must be distinct. If you collaborate, add to 
+         your submission your collaborators in Github. 
+       </li>
+       <li>Submission formats are either Kaggle URLs or Colab URLs of your <b>notebooks</b> paired with a github repository that contains the source 
+       and a README.md file that explains how to run the notebook (kernel dependencies, etc.). You should not be expecting that the graders will need to perform special setups or wonder on how to run your notebooks. 
+      Avoid posting your project code in public until the last day of the submission allowing for some last minute mishaps 
+      such as the very unlikely event that Github/Kaggle/Colab are down (probably not going to happen). 
+      </li>
+          <li>You need to submit all (two) midterm projects.  The grade of the project will depend on the metric (MSE, Accuracy) achieved. Those that try AutoML 
+            (automated feature selection) in their code they need to submit in their write up an explanation as to how the AutoML scheme works. 
+            AutoML submissions will be rewarded extra credit but they are not a prerequisite for a good score. 
+          </li>
+          <li>You need to submit  one (1) final project of your choice. Final projects will be posted during Spring break and they are due <b> May 2nd. </b></li>  
+          <li>See the <Link to="/docs/environment/setup">setup</Link> for setting up your development environment.</li>
+        </ul>
     </FuturaParagraph>
     {/* <ul css={{ fontFamily: options.headerFontFamily.join(`,`) }}>
       <li>

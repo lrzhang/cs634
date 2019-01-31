@@ -194,11 +194,11 @@ const Navigation = ({ pathname }) => {
             </SocialNavItem>
           </div>
           <SocialNavItem
-            href="https://njit2.mrooms.net/"
-            title="MOODLE"
+            href="https://cs634-spring-2019.slack.com"
+            title="Slack"
             overrideCSS={{ paddingRight: 0 }}
           >
-            MOODLE
+            Slack
           </SocialNavItem>
         </div>
       </div>

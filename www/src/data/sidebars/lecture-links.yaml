@@ -9,24 +9,28 @@
           link: /docs/lectures/ml-intro/data-mining-overview/
         - title: A real job description of a data scientist
           link: /docs/lectures/ml-intro/data-scientist-job/
-    - title: Week 2. Programming Review
+    - title: Week 2. ML Frameworks
       ui: steps  
       items:
-        - title: Your Programming workflow
-          link: /docs/lectures/python-review/programming-workflow/
-        - title: Numerical python 
-          link: /docs/lectures/python-review/numpy-pandas
-        - title: Your first data mining app  
-          link: /docs/lectures/python-review/first-data-mining-app
-    - title: Week 3. Math Review
+        - title: Development workflow
+          link: /docs/lectures/ml-frameworks/development-workflow/
+        - title: Python numerics (Numpy / Pandas)
+          link: /docs/lectures/ml-frameworks/numpy-pandas
+        - title: The Zillow app
+          link: /docs/lectures/ml-frameworks/zillow-app
+        - title: Introduction to Tensorflow
+          link: /docs/lectures/ml-frameworks/tensorflow-introduction
+    - title: Week 3. ML Math
       ui: steps
       items: 
+        - title: ML Problem Statement
+          link: /docs/lectures/ml-math/ml-problem-statement
         - title: Linear Algebra
-          link: /docs/lectures/linear-algebra
+          link: /docs/lectures/ml-math/linear-algebra
         - title: Probability and Information Theory Basics
-          link: /docs/lectures/probability
+          link: /docs/lectures/ml-math/probability
         - title: Netflix Case Study
-          link: /docs/lectures/netflix
+          link: /docs/lectures/ml-math/netflix
     - title: Week 4. Linear Regression 
       ui: steps
       items: 
@@ -120,8 +124,6 @@
         items:
           - title: Setup
             link: /docs/environment/setup
-          - title: Jupyter Notebooks
-            link: /docs/environment/jupyter
 
 
           

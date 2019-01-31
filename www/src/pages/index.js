@@ -153,18 +153,12 @@ class IndexRoute extends React.Component {
                     </FuturaParagraph>
                   </Card>
                   <Card>
-                  <CardHeadline>Course Highlights</CardHeadline>
+                  <CardHeadline>Course News</CardHeadline>
                     <FuturaParagraph>
-                      All course discussions will take place in Moodle. 
-                    </FuturaParagraph>
-                    <FuturaParagraph>
-                      Stay tuned for updates in the Projects link at the top of
-                      this page.
-                    </FuturaParagraph>
-                    <FuturaParagraph>
-                    Some proficiency in programming, linear algebra, basic
-                      probability and statistics is expected. We will go through
-                      the basics in the first 3 weeks of the course.
+                      <li>All course discussions will take place in our Slack (by invitation only). </li>
+                      <li>Stay tuned for updates in the Projects link at the top of
+                      this page.</li>
+                      <li>Read the blog after each lecture for points you need to pay attention to.</li>
                     </FuturaParagraph>
                   </Card>
                   {/* <Diagram /> */}

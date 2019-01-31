@@ -1,16 +1,6 @@
-- title: Project 1 
+- title: Projects
   items:
-    - title: Problem Statement
-      link: 
-    - title: Milestone 1
-      link: 
-    - title: Milestone 2
-      link: 
-- title: Project 2
-  items:
-    - title: Problem Statement
-      link: 
-    - title: Milestone 1
-      link: 
-    - title: Milestone 2
-      link: 
+  - title: Midterm Project 1 
+    link: /docs/projects/midterm-project-1
+  - title: Midterm Project 2 
+    link: /docs/projects/midterm-project-2   
