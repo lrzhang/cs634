@@ -1,5 +1,5 @@
 ---
-title: Numerical Python (Numpy/Scipy)
+title: Numerical Python (Numpy/Scipy and Pandas)
 ---
 
 ## Standard Python
@@ -14,3 +14,7 @@ Below is a list of recommended courses you can attend to. We will go over briefl
 ## Numpy specific
 We will go now through the later half of [Numpy tutorial from Stanfords CS228](https://github.com/pantelis/cs228-material/tree/master/tutorials/python) or [Numpy Tutorial from Stanford's CS231n](http://cs231n.github.io/python-numpy-tutorial/).
 > [Numpy Cheatsheet](https://www.dataquest.io/blog/large_files/numpy-cheat-sheet.pdf)
+
+## Pandas
+This is the effectively "official" documentation on Pandas: 
+[Pandas: powerful Python data analysis toolkit](https://pandas.pydata.org/pandas-docs/stable/pandas.pdf)
