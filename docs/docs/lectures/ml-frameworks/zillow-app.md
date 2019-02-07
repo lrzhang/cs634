@@ -4,6 +4,9 @@ title: The Zillow App
 
 The Zillow app is based on the end to end machine learning example in Chapter 2 of Geron's book. We will go through this end to end example during this lecture. 
 
+<iframe src="https://nbviewer.jupyter.org/github/pantelis/handson-ml/blob/master/02_end_to_end_machine_learning_project.ipynb" width="800" height="1200"></iframe>
+
+
 ### Key Questions
 
 1. Is the dataset appropriate for training?
