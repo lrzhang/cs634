@@ -25,8 +25,8 @@
       items: 
         - title: ML Problem Statement
           link: /docs/lectures/ml-math/ml-problem-statement
-        - title: Linear Algebra
-          link: /docs/lectures/ml-math/linear-algebra
+        - title: Linear Algebra for ML
+          link: /docs/lectures/ml-math/linear-algebra-for-ml
         - title: Probability and Information Theory Basics
           link: /docs/lectures/ml-math/probability
         - title: Netflix Case Study
