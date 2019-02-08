@@ -31,7 +31,6 @@ Now that we have introduced somewhat more formally the learning problem and its 
 Suppose that we are given the training set  $\mathbf{x} = \{x_1,...,x_m\}$ together with their labels, the vectors $\mathbf{y}$. We need to construct a model such that a *suitably chosen* loss function is minimized for a **different** set of input data, the so-called test set. The ability to correctly *predict* when observing the test set, is called **generalization**.
 
 ![Training dataset and Target Unknown Function](images/Figure1.2.png)
-
 *Training Dataset (m=10) for the Regression Model. The green curve is the uknown target function.*
 
 Since the output $y$ is a continuous variable then the supervised learning problem is called a regression problem (otherwise its a classification problem). The dataset is generated (in data scienece these datasets are called *synthetic*) by the function $sin(2 \pi x) + n$ where $x$ is a uniformly distributed random variable and $n$ is $N(\mu=0.0, \sigma^2=0.3)$. This target function is **completely unknown** to us - we just mention it here for completeness.  
@@ -45,7 +44,6 @@ Our job is to find $\mathbf{w}$ such that the polynomial above fits the data we 
 $$L(\mathbf{w}) = \frac{1}{2} \sum_{i=1}^m \{g(\mathbf{w},x_i)-t_i)\}^2$$
 
 ![Loss Function](images/Figure1.3.png)
-
 *The loss function chosen for this regression problem, corresponds to the sum of the squares of the displacements of each data point and our hypothesis. The sum of squares in the case of Gaussian errors gives raise to an (unbiased) Maximum Likelihood estimate of the model parameters. Contrast this to sum of absolute differences.*
 
 Now our job has become to choose two things: the weight vector $\mathbf{w^*}$ *and* $M$ the order of the polynomial. **Both** define our hypothesis.  If you think about it, the order $M$ defines the model complexity in the sense that the larger $M$ becomes the more the number of weights we need to estimate and store. Obviously this is a trivial example and storage is not a concern here but treat this example as instructive for that it applies in many far for complicated settings. 
