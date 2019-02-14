@@ -16,7 +16,7 @@
           link: /docs/lectures/ml-frameworks/development-workflow/
         - title: Python numerics (Numpy / Pandas)
           link: /docs/lectures/ml-frameworks/numpy-pandas
-        - title: The Zillow app
+        - title: Zillow Case Study
           link: /docs/lectures/ml-frameworks/zillow-app
         - title: Introduction to Tensorflow
           link: /docs/lectures/ml-frameworks/tensorflow-introduction
@@ -34,14 +34,12 @@
     - title: Week 4. Linear Regression 
       ui: steps
       items: 
-        - title: A linear problem
-          link: /docs/lectures/linear-regression
-        - title: Fitting the data via Gradient Descent
-          link: /docs/lectures/gradient-descent
-        - title: Overfitting 
-          link: /docs/lectures/overfitting 
+        - title: Linear Regression
+          link: /docs/lectures/regression/linear-regression
+        - title: Optimization and Stochastic Gradient Descent
+          link: /docs/lectures/regression/optimization
         - title: Zillow case study 
-          link: /docs/lectures/zillow
+          link: /docs/lectures/ml-frameworks/zillow-app
     - title: Week 5. Linear Classification
       ui: steps
       items: 

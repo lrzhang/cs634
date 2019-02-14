@@ -128,7 +128,7 @@ const FeaturesHeader = () => (
       Avoid posting your project code in public until the last day of the submission allowing for some last minute mishaps 
       such as the very unlikely event that Github/Kaggle/Colab are down (probably not going to happen). 
       </li>
-          <li>You need to submit all (two) midterm projects.  The grade of the project will depend on the metric (MSE, Accuracy) achieved. Those that try AutoML 
+          <li>You need to submit all (two) midterm projects.  Midterm projects are due <b> March 14th</b>. The grade of the project will depend on the metric (MSE, Accuracy) achieved. Those that try AutoML 
             (automated feature selection) in their code they need to submit in their write up an explanation as to how the AutoML scheme works. 
             AutoML submissions will be rewarded extra credit but they are not a prerequisite for a good score. 
           </li>
