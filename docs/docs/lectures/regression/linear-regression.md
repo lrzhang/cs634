@@ -28,6 +28,14 @@ Back to our model for the sinusoidal dataset, and assuming Gaussian basis functi
 ![Figure3.8c-bishop](images/Figure3.8c.png)
 ![Figure3.8d-bishop](images/Figure3.8d.png)
 
+$$ p(\mathbf{w}|y) = \frac{p(y|\mathbf{w}) p(\mathbf{w})}{\int p(t|\mathbf{w}) p(\mathbf{w}) d\mathbf{w}}$$
+    
+
+* posterior $\propto$ likelihood $\times$ prior
+* The likelihood function is central to both Bayesian and frequentist paradigms. 
+* In the frequentist paradigm the $\mathbf{w}$ is treated as a known quantity with an estimate $\hat{\mathbf{w}}$ that has a mean and variance resulting from the distribution of $y$.  
+*  In the Bayesian setting, we are integrating over the distribution of $\mathbf{w}$ given the data i.e. we are not making a point estimate of $\mathbf{w}$ but we marginalize out $\mathbf{w}$. 
+
 <!--Height and income
 via example provided in Chapter 2 of [Gellman](https://www.amazon.com/Analysis-Regression-Multilevel-Hierarchical-Models/dp/052168689X) - a classic in the statistics literature.
 
