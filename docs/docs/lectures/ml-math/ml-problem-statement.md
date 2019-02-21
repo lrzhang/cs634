@@ -69,4 +69,8 @@ The graph below show the results of each search iteration on the $\lambda$ hyper
 
 ![Loss Function](images/Figure1.8.png)
 
+The table below shows the increase in magnitute of the error as the number of coefficients increase. 
+
+![Weight Losses](https://i.imgur.com/dn16G2C.png)
+
 Now that we have concluded the treatment of some elementary concepts, let us use them in a [data mining problem](../ml-frameworks/zillow-app).
