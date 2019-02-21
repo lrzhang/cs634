@@ -29,6 +29,8 @@
           link: /docs/lectures/ml-math/linear-algebra-for-ml
         - title: Probability and Information Theory Basics
           link: /docs/lectures/ml-math/probability
+        - title: Optimization and Stochastic Gradient Descent
+          link: /docs/lectures/ml-math/optimization
         - title: Netflix Case Study
           link: /docs/lectures/ml-math/netflix
     - title: Week 4. Linear Regression 
@@ -36,21 +38,23 @@
       items: 
         - title: Linear Regression
           link: /docs/lectures/regression/linear-regression
-        - title: Optimization and Stochastic Gradient Descent
-          link: /docs/lectures/regression/optimization
         - title: Zillow case study 
           link: /docs/lectures/ml-frameworks/zillow-app
     - title: Week 5. Linear Classification
       ui: steps
       items: 
-        - title: The two class problem
-          link: /docs/lectures/linear-classification
+        - title: The binary problem
+          link: /docs/lectures/classification/linear-classification
         - title: The Perceptron
-          link: /docs/lectures/perceptron 
+          link: /docs/lectures/classification/perceptron 
+        - title: Perceptron Performance
+          link: /docs/lectures/classification/perceptron-performance
         - title: Logistic Regression
-          link: /docs/lectures/logistic-regression
-        - title: Titanic case study
-          link: /docs/lectures/titanic
+          link: /docs/lectures/classification/logistic-regression
+        - title: Iris Case study
+          link: /docs/lectures/classification/iris
+        - title: MNIST Case Study
+          link: /docs/lectures/classification/mnist
     - title: Week 6. Kernel Methods and SVM
       ui: steps
       items: 

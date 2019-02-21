@@ -63,6 +63,54 @@ Such geometric interpretations will be very useful when we study dimensionality 
 > NOTE: The [Probabilistic Programming & Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/) book is one of the best resources out there containing practical python examples. In addition they have been recoded recently to work in [Tensorflow Probability](https://medium.com/tensorflow/an-introduction-to-probabilistic-programming-now-available-in-tensorflow-probability-6dcc003ca29e) an industrial-strength framework that can bring together Deep Learning and domain-specific probabilistic modeling. The book cant match the rigorousness of Bishop's book but it offers a good treatment on problems and use cases and should be considered complimentary.
 
 #### Bayesian update example
-<iframe src="https://nbviewer.jupyter.org/github/pantelis/handson-ml/blob/master/Bayesian_update_coin_flip.ipynb" width="900" height="1200"></iframe>
+<iframe src="https://nbviewer.jupyter.org/github/pantelis/cs634-notebooks/blob/master/Bayesian_update_coin_flip.ipynb" width="900" height="1200"></iframe>
 
 This example is instructive beyond the habit of having coin flip examples in every textbook in probability theory and statistics. It is useful to understand the conjugate prior distribution being discussed in Bishop's section 2.1.1 and Figure 3 that the code above replicates.  Armed with this understanding, we can now treat the Bayesian update for linear regression as described in the [linear regression section](/docs/lectures/regression/linear-regression).
+
+### Logits and other probability functions
+
+#### Logit and logistic function
+If $p$ is a probability, then the ratio $\frac{p}{1-p}$ is the corresponding *odds*.  For example, in the binary classification case, the log odds is given by 
+
+$$ logit(\sigma) = \alpha = ln \frac{\sigma}{1-\sigma} = ln \frac{p(\mathcal{C}_1|\mathbf{x})}{p(\mathcal{C}_2|\mathbf{x})}$$
+
+The logistic function of any number $\alpha$ is given by the inverse logit:
+
+$${logistic}(\alpha) = \sigma(\alpha) = {logit}^{-1}(\alpha) =  \frac{1}{1 + exp(-\alpha)} = \frac{exp(\alpha)}{ exp(\alpha) + 1}$$
+
+and is plotted below. It maps its argument to the "probability" space [0,1]. 
+
+![logistic sigmoid](images/Figure4.9.png)
+*Logistic sigmoid (red)*
+
+The sigmoid function satisfies the following symmetry:
+
+$$\sigma(-\alpha) = 1 - \sigma(\alpha)$$
+
+In addition it offers very convenient derivatives and has been used extensively in deep neural networks (for many architectures has been superceded by RELU). The derivative can be obtained as follows:
+
+Consider
+$$
+f(x)=\dfrac{1}{\sigma(x)} = 1+e^{-x}
+.
+$$
+Then, on the one hand, the chain rule gives
+$$
+f'(x)
+= \frac{d}{dx} \biggl( \frac{1}{\sigma(x)} \biggr)
+= -\frac{\sigma'(x)}{\sigma(x)^2}
+,
+$$
+and on the other hand,
+$$
+f'(x)
+= \frac{d}{dx} \bigl( 1+e^{-x} \bigr)
+= -e^{-x}
+= 1-f(x)
+= 1 - \frac{1}{\sigma(x)}
+= \frac{\sigma(x)-1}{\sigma(x)}
+$$
+
+Equating the two expressions we finally obtain,
+
+$$\sigma'(x) = \sigma(x)(1-\sigma(x))$$ 

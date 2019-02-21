@@ -35,9 +35,3 @@ $$ p(\mathbf{w}|y) = \frac{p(y|\mathbf{w}) p(\mathbf{w})}{\int p(t|\mathbf{w}) p
 * The likelihood function is central to both Bayesian and frequentist paradigms. 
 * In the frequentist paradigm the $\mathbf{w}$ is treated as a known quantity with an estimate $\hat{\mathbf{w}}$ that has a mean and variance resulting from the distribution of $y$.  
 *  In the Bayesian setting, we are integrating over the distribution of $\mathbf{w}$ given the data i.e. we are not making a point estimate of $\mathbf{w}$ but we marginalize out $\mathbf{w}$. 
-
-<!--Height and income
-via example provided in Chapter 2 of [Gellman](https://www.amazon.com/Analysis-Regression-Multilevel-Hierarchical-Models/dp/052168689X) - a classic in the statistics literature.
-
-[This paper](http://www.timothy-judge.com/Height%20paper--JAP%20published.pdf) captures the effect of physical height on workplace success and income. It is provided here as a case study for linear regression and is motivated by 
-<iframe src="https://faculty.psau.edu.sa/filedownload/doc-12-pdf-a1997d0d31f84d13c1cdc44ac39a8f2c-original.pdf" width="800" height="1200"></iframe> -->
